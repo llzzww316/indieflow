@@ -101,6 +101,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* How It Works Section */}
+      <section id="how-it-works" className="px-6 py-24 max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          How It <span className="gradient-text">Works</span>
+        </h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="text-center">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary-purple to-primary-blue flex items-center justify-center">
+              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+              </svg>
+            </div>
+            <div className="inline-block px-3 py-1 text-xs font-semibold bg-primary-purple/20 text-primary-purple rounded-full mb-4">
+              Step 1
+            </div>
+            <h3 className="text-xl font-bold mb-3">Connect Your Accounts</h3>
+            <p className="text-gray-400">
+              Link Twitter, LinkedIn, and Reddit once. We handle the OAuth so you can focus on creating.
+            </p>
+          </div>
+          <div className="text-center">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary-purple to-primary-blue flex items-center justify-center">
+              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+              </svg>
+            </div>
+            <div className="inline-block px-3 py-1 text-xs font-semibold bg-primary-purple/20 text-primary-purple rounded-full mb-4">
+              Step 2
+            </div>
+            <h3 className="text-xl font-bold mb-3">Write Once</h3>
+            <p className="text-gray-400">
+              Enter your product update in our AI editor. Our smart editor helps you craft the perfect message.
+            </p>
+          </div>
+          <div className="text-center">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary-purple to-primary-blue flex items-center justify-center">
+              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+              </svg>
+            </div>
+            <div className="inline-block px-3 py-1 text-xs font-semibold bg-primary-purple/20 text-primary-purple rounded-full mb-4">
+              Step 3
+            </div>
+            <h3 className="text-xl font-bold mb-3">Publish Everywhere</h3>
+            <p className="text-gray-400">
+              One click sends optimized posts to all platforms. Sit back and watch your audience grow.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="px-6 py-24 max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
